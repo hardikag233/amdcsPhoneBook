@@ -5,7 +5,7 @@ import java.util.Map;
 
 public class PhoneBook {
 	
-	private Map<String, String> contacts = new HashMap<>();
+	private Map<String, String> contacts = new HashMap<String, String>();
 
     public void addContact(String name, String phoneNumber) {
         contacts.put(name, phoneNumber);
